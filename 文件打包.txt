@@ -1,0 +1,8 @@
+有控制台窗口：
+pyinstaller -F Assignment_Manage.py
+
+无控制台窗口：
+pyinstaller -F -w Assignment_Manage.py
+
+无控制台窗口+有图标
+pyinstaller -F -w -i Assignment_Manage.ico Assignment_Manage.py
